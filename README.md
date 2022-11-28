@@ -24,20 +24,15 @@ The data we used for this project was sourced from different Letterboxd listings
 ### Access
 The scraped and cleaned data can be found in the DATA folder, but the sites we scraped from for each genre can be found below:
 
-<a href="https://letterboxd.com/darrencb/list/vote-best-comedy-films-of-all-time/">Comedy</a>
-
-<a href="https://letterboxd.com/darrencb/list/letterboxds-top-250-horror-films/">Horror</a>
-
-<a href="https://letterboxd.com/top10ner/list/100-fantastic-family-friendly-flicks/">Family</a>
-
-<a href="https://letterboxd.com/darrencb/list/vote-best-romance-films-of-all-time/">Romance</a>
-
-<a href="https://letterboxd.com/thefilmstage/list/the-film-stages-50-best-action-movies-of/">Action</a>
-
+<a href="https://letterboxd.com/darrencb/list/vote-best-comedy-films-of-all-time/">Comedy</a> | 
+<a href="https://letterboxd.com/darrencb/list/letterboxds-top-250-horror-films/">Horror</a> | 
+<a href="https://letterboxd.com/top10ner/list/100-fantastic-family-friendly-flicks/">Family</a> | 
+<a href="https://letterboxd.com/darrencb/list/vote-best-romance-films-of-all-time/">Romance</a> | 
+<a href="https://letterboxd.com/thefilmstage/list/the-film-stages-50-best-action-movies-of/">Action</a> | 
 <a href="https://letterboxd.com/ccarneiro0707/list/timeout-100-best-thriller-films-of-all-time/">Thriller</a>
 
 ### Dictionary
-Click this <a href="https://github.com/trnorrgard/DS4002Project2/blob/main/DATA/datadict.txt">link</a> to access the data dictionary.
+Click this <a href="https://github.com/trnorrgard/DS4002Project3/blob/main/DATA/datadict">link</a> to access the data dictionary.
 
 ### Data Context
 We wanted to develop a model that could predict movie genre based on its poster. Our data was scraped from multiple user-generated movie lists on Letterboxd, "a social media website for film lovers." Letterboxd contains accurate film data for over 3 million of its users to share, track, and save for later.
