@@ -1,0 +1,7 @@
+This data was scraped from multiple user-generated movie lists on Letterboxd, "a social media website for film lovers." Letterboxd contains accurate film data for over 3 million of its users to share, track, and save for later.
+
+The sites were scraped for movie title, poster URL, and genre. A samlpe row of our dataframe is included in the FIGURES folder. The columns of our data frame are listed and described below.
+
+Title: Title of movie
+Poster URL: URL path to .jpg image of offical movie poster
+Genre: First listed genre of movie
