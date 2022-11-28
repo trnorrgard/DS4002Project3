@@ -25,10 +25,15 @@ The data we used for this project was sourced from different Letterboxd listings
 The scraped and cleaned data can be found in the DATA folder, but the sites we scraped from for each genre can be found below:
 
 <a href="https://letterboxd.com/darrencb/list/vote-best-comedy-films-of-all-time/">Comedy</a>
+
 <a href="https://letterboxd.com/darrencb/list/letterboxds-top-250-horror-films/">Horror</a>
+
 <a href="https://letterboxd.com/top10ner/list/100-fantastic-family-friendly-flicks/">Family</a>
+
 <a href="https://letterboxd.com/darrencb/list/vote-best-romance-films-of-all-time/">Romance</a>
+
 <a href="https://letterboxd.com/thefilmstage/list/the-film-stages-50-best-action-movies-of/">Action</a>
+
 <a href="https://letterboxd.com/ccarneiro0707/list/timeout-100-best-thriller-films-of-all-time/">Thriller</a>
 
 ### Dictionary
@@ -39,7 +44,26 @@ We wanted to develop a model that could predict movie genre based on its poster.
 
 ## FIGURES Folder:
 
-#### 
+#### AllGenres (1, 2, 3)
+These figures are the confusion matrices of 3 separate CNN models trained and tested on the same data. The first image is our model with with the worst results, the third in the model with the best results. The second image is just one of our models between the first and last, and we altered and tested several models but felt including the results of all of them would be redundant.
+
+#### DataSample (and URL)
+These figures are samples of our data frames that we used for this project. URLDataSample shows what the .csv file from the DATA folder looks like, and DataSample is an example of the data the model uses to make predictions.
+
+#### HorrorComedy
+This figure contains the loss score, accuracy score, and confusion matrix for a model trained and tested with just horror and comedy movies. 
+
+#### HorrorFamily
+This figure contains the loss score, accuracy score, and confusion matrix for a model trained and tested with just horror and family movies. 
+
+#### RomanceAction
+This figure contains the loss score, accuracy score, and confusion matrix for a model trained and tested with just romance and action movies. 
+
+#### RomanceHorror
+This figure contains the loss score, accuracy score, and confusion matrix for a model trained and tested with just romance and horror movies. 
+
+#### ThrillerActionHorror
+This figure contains the loss score, accuracy score, and confusion matrix for a model trained and tested with just thriller, action, and horror movies. 
 
 ## REFERENCES:
 
