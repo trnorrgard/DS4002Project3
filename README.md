@@ -13,22 +13,29 @@ Download any files in this section to your local computer. These files are writt
 
 ### Usage
 - First download the code file(s) from the SRC folder and the .csv file from the  DATA folder.
-- The only piece of code that will need to be edited for correct usage is the file path. This appears on line ___ of ___ file. Edit the path provided to the location of where you downloaded the .csv file on your local computer.
-- Code should be run line by line if you wish to see all visualizations/plots.
+- The only piece of code that will need to be edited for correct usage is the file path. This appears in the second and third code chunks of the 'downloading images' section. Edit the path provided to the location of where you would like to store the poster images on your local computer.
+- Code should be run chunk by chunk in a Jupyter Notebook if you wish to see all visualizations/plots.
 
 ## DATA Folder:
 
 ### Data Collection Process
-The data we used for this project was sourced from Letterboxd. We transformed this data into HTML files containing film names, posters, and genre. This is labeled as _________. These were created by scraping data from Letterboxd film genre lists and grouping them with their respective film names and posters.
+The data we used for this project was sourced from different Letterboxd listings. We found lists of popular movies by genre, and used a Chrome extension called WebScraper to gather the movie title, poster URL, and genre. This information was stored in a .csv file that is located in the DATA folder.
 
 ### Access
-Click this <a href="https://www.kaggle.com/code/yagnavalkya/dass-prediction-based-on-personality-types/data?select=data.csv">link</a> to access data.
+The scraped and cleaned data can be found in the DATA folder, but the sites we scraped from for each genre can be found below:
+
+<a href="https://letterboxd.com/darrencb/list/vote-best-comedy-films-of-all-time/">Comedy</a>
+<a href="https://letterboxd.com/darrencb/list/letterboxds-top-250-horror-films/">Horror</a>
+<a href="https://letterboxd.com/top10ner/list/100-fantastic-family-friendly-flicks/">Family</a>
+<a href="https://letterboxd.com/darrencb/list/vote-best-romance-films-of-all-time/">Romance</a>
+<a href="https://letterboxd.com/thefilmstage/list/the-film-stages-50-best-action-movies-of/">Action</a>
+<a href="https://letterboxd.com/ccarneiro0707/list/timeout-100-best-thriller-films-of-all-time/">Thriller</a>
 
 ### Dictionary
 Click this <a href="https://github.com/trnorrgard/DS4002Project2/blob/main/DATA/datadict.txt">link</a> to access the data dictionary.
 
 ### Data Context
-We wanted to develop a model that could predict movie genre based on its poster. Our data was scraped from a multiple user-generated movie lists on Letterboxd, "a social media website for film lovers." Letterboxd contains accurate film data for over 3 million of its users to share, track, and save for later.
+We wanted to develop a model that could predict movie genre based on its poster. Our data was scraped from multiple user-generated movie lists on Letterboxd, "a social media website for film lovers." Letterboxd contains accurate film data for over 3 million of its users to share, track, and save for later.
 
 ## FIGURES Folder:
 
