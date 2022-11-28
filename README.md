@@ -63,9 +63,9 @@ This figure contains the loss score, accuracy score, and confusion matrix for a 
 ## REFERENCES:
 
 ### Preparatory Assignments:
-<a href="file:///Users/teagannorrgard/Downloads/MI1-2%20(updated%20version).pdff">Milestone 1, get new link</a>
+<a href="https://docs.google.com/document/d/15xEGqKY0p-yl6rgtyF1leu6VpqZuNX6UUt7Da8VwN_Q/edit">Milestone 1</a>
 
-<a href="file:///Users/teagannorrgard/ds4001/MI2%20-%202.pdf">Milestone 2, get new link</a>
+<a href="https://docs.google.com/document/d/11cU7nqI3JRLWg_q3YEi7KPrpV0kIyKl-Ys7Mo45bJ3E/edit">Milestone 2</a>
 
 ### Acknowledgements
 We would like to thank Professor Alonzi and our TA Harsh for their help and guidance with this project :)
