@@ -19,7 +19,7 @@ Download any files in this section to your local computer. These files are writt
 ## DATA Folder:
 
 ### Data Collection Process
-The data we used for this project was sourced from different Letterboxd listings. We found lists of popular movies by genre, and used a Chrome extension called WebScraper to gather the movie title, poster URL, and genre. This information was stored in a .csv file that is located in the DATA folder.
+The data used for this project was sourced from different Letterboxd listings. Lists of popular movies by genre were parsed using a Chrome extension called WebScraper to gather the movie title, poster URL, and genre. This information was stored in a .csv file that is located in the DATA folder.
 
 ### Access
 The scraped and cleaned data can be found in the DATA folder, but the sites we scraped from for each genre can be found below:
@@ -35,15 +35,15 @@ The scraped and cleaned data can be found in the DATA folder, but the sites we s
 Click this <a href="https://github.com/trnorrgard/DS4002Project3/blob/main/DATA/datadict">link</a> to access the data dictionary.
 
 ### Data Context
-We wanted to develop a model that could predict movie genre based on its poster. Our data was scraped from multiple user-generated movie lists on Letterboxd, "a social media website for film lovers." Letterboxd contains accurate film data for over 3 million of its users to share, track, and save for later.
+We wanted to develop a model that could predict movie genre based on its poster. The data was scraped from multiple user-generated movie lists on Letterboxd, "a social media website for film lovers." Letterboxd contains accurate film data for over 3 million of its users to share, track, and save for later.
 
 ## FIGURES Folder:
 
 #### AllGenres (1, 2, 3)
-These figures are the confusion matrices of 3 separate CNN models trained and tested on the same data. The first image is our model with with the worst results, the third in the model with the best results. The second image is just one of our models between the first and last, and we altered and tested several models but felt including the results of all of them would be redundant.
+These figures are the confusion matrices of 3 separate CNN models trained and tested on the same data. The first image is the model with with the worst results, the third in the model with the best results. The second image is just one of the models between the first and last, and several other models were altered and tested but including the results of all of them would be redundant.
 
 #### DataSample (and URL)
-These figures are samples of our data frames that we used for this project. URLDataSample shows what the .csv file from the DATA folder looks like, and DataSample is an example of the data the model uses to make predictions.
+These figures are samples of the data frames used for this project. URLDataSample shows what the .csv file from the DATA folder looks like, and DataSample is an example of the data the model uses to make predictions.
 
 #### HorrorComedy
 This figure contains the loss score, accuracy score, and confusion matrix for a model trained and tested with just horror and comedy movies. 
@@ -68,7 +68,7 @@ This figure contains the loss score, accuracy score, and confusion matrix for a 
 <a href="https://docs.google.com/document/d/11cU7nqI3JRLWg_q3YEi7KPrpV0kIyKl-Ys7Mo45bJ3E/edit">Milestone 2</a>
 
 ### Acknowledgements
-We would like to thank Professor Alonzi and our TA Harsh for their help and guidance with this project :)
+Thank you to Professor Alonzi and our TA Harsh for your help and guidance with this project :)
 
 ### References
 
